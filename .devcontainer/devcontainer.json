@@ -1,0 +1,16 @@
+{
+	"name": "olive",
+	"dockerComposeFile": [
+		"../docker-compose.yml",
+	],
+	"service": "api",
+	"workspaceFolder": "/olive",
+	"settings": {
+		"terminal.integrated.automationShell.linux": "/bin/bash",
+		"go.gopath:": "/go",
+	},
+	"extensions": [
+		"ms-vscode.go",
+	],
+	"shutdownAction": "stopCompose",
+}
